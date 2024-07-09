@@ -1,0 +1,256 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('Images/hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.hero .btn {
+    background: #ff6347;
+    color: #fff;
+    padding: 0.7em 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+/* Featured Cars */
+#featured-cars {
+    padding: 2em 0;
+    text-align: center;
+}
+
+#featured-cars h2 {
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+.car {
+    display: inline-block;
+    width: 30%;
+    margin: 1em;
+    background: #fff;
+    padding: 1em;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.car img {
+    max-width: 100%;
+    height: auto;
+}
+
+.car-details h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.car-details p {
+    font-size: 1.2em;
+    color: #ff6347;
+}
+
+/* Banner Section */
+.banner {
+    background: #ff6347;
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.banner p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.banner .btn {
+    background: #fff;
+    color: #ff6347;
+    padding: 0.7em 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+/* Newsletter Section */
+.newsletter {
+    background: #f4f4f4;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.newsletter h2 {
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+.newsletter p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter input[type="email"] {
+    padding: 0.7em;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 0.5em;
+}
+
+.newsletter button {
+    padding: 0.7em 1.5em;
+    background: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* About Section */
+.about {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+.about p {
+    font-size: 1.2em;
+}
+
+/* Contact Section */
+.contact {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+.contact p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact ul li {
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    position: relative;
+}
+
+footer p {
+    margin-bottom: 1em;
+}
+
+footer ul.social {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+footer ul.social li {
+    margin: 0 0.5em;
+}
+
+footer ul.social li a img {
+    width: 30px;
+    height: 30px;
+}
