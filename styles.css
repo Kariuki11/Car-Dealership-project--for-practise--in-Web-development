@@ -56,6 +56,11 @@ header .logo {
     left: 10px;
 }
 
+header .logo img {
+    max-width: 100px; /* Adjusted logo size */
+    height: auto;
+}
+
 header h1 {
     margin-bottom: 0.5em;
 }
@@ -118,17 +123,19 @@ nav ul li a {
 .car {
     display: inline-block;
     width: 30%;
-    margin: 1em;
+    margin: 1em 1.66%;
     background: #fff;
     padding: 1em;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: left;
+    vertical-align: top;
 }
 
 .car img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 200px; /* Ensure all images are the same size */
+    object-fit: cover; /* Crop images to fit the specified size */
 }
 
 .car-details h3 {
